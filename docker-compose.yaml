@@ -7,7 +7,7 @@ app:
   depends_on:
     - db
   ports:
-    - 8200:80
+    - "8200:80"
   environment:
     - APP_KEY=ChangeMeBy32KeyLengthOrGenerated
     - DB_HOST=db
